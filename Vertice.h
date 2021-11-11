@@ -1,12 +1,9 @@
-#include <iostream>
-using namespace std;
-
 class Vertice{
     private:
     int id;
     int dato;
     public:
-    Vertice();
+    Vertice(){id=0; dato =0;};
     Vertice(int i, int d){id=i; dato=d;};
     int getId(){return id;};
     int getDato(){return dato;};
@@ -14,6 +11,3 @@ class Vertice{
     void setDato(int d){dato= d;};
 };
 
-
-int main() {
-}
